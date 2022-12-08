@@ -8,9 +8,9 @@ React + Spring Boot + MySQL.
 Made with React
 > axios, semantic - ui bootstrap, react - router - dom
 
-### npm install
+`npm install`
 
-### npm start
+`npm start`
 
 ## Back - End
 
