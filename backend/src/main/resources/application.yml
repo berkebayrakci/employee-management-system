@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ems-api
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/emsdatabase?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000
+
+logging:
+  level:
+    org.springframework.security: DEBUG
